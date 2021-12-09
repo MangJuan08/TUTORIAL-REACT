@@ -18,9 +18,9 @@ function App() {
     <React.Fragment>
       <h2>ciaos</h2>
 
-      <CardProd card={primaCard}></CardProd>
-      <CardProd card={secondaCard}></CardProd>
-      <CardProd card={terzoCard}></CardProd>
+      <CardProd {...primaCard}></CardProd>{/*decostruzione dell'Oggetto*/}
+      <CardProd {...secondaCard}></CardProd>
+      <CardProd {...terzoCard}></CardProd>
     </React.Fragment>
   );
 }
