@@ -1,10 +1,9 @@
 import React from "react";
 
-const link =
-  "https://a71eba0458acf57331d3-d31ce5ebd093935dff8526660841b743.ssl.cf2.rackcdn.com/products/f12079.jpg";
+
 const CardProd = (props) => {
   console.log(props);
-  const {nome, prezzo} = props; //decostruzione dell'Oggetto
+  const {nome, prezzo, link} = props; //decostruzione dell'Oggetto
   return (
     <article>
       <div className="card">
